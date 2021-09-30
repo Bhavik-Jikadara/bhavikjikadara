@@ -1,0 +1,24 @@
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .img-main {
+        height: 425px;
+    }
+    .profile-img{
+        width: 90px;
+        height: 90px;
+    }
+    img{
+        width: 85px;
+        height: 85px;
+    }
+    #font{
+        font-size: 20px;
+    }
+    .social{
+        width: 22px;
+        height: 22px;
+    }
+    .foot{
+        height: 10px;
+        font-size: small;
+    }
+}

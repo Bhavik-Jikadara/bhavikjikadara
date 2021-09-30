@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavik Jikadara</title>
+    <link rel="icon" href="{{ url_for('static', filename = 'res/pic.png')}}" />
+    <!-- <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/darkmode.css" />
+    <link rel="stylesheet" href="Responsive/480.css" /> -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/darkmode.css') }}" />
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='Responsive/480.css') }}" /> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/480.css') }}" />
+  </head>
+
+  <body>
+    <nav>
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+    </nav>
+
+    <section class="img-main">
+      <div class="main-container marg">
+        <div class="profile-img">
+          <img src="{{ url_for('static', filename = 'res/pic.png')}}" alt="" />
+        </div>
+        <div class="text marg">
+          <div>Bhavik Jikadara</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="media">
+          <div class="logo">
+            <a
+              href="https://www.linkedin.com/in/bhavik-jikadara-612643190"
+              target="_blank"
+            >
+              <img src="{{ url_for('static', filename = 'res/linkedin.png')}}" alt="" class="social" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://github.com/Bhavik-Jikadara">
+              <img src="{{ url_for('static', filename = 'res/github.png')}}" alt="" class="social" />
+            </a>
+          </div>
+          <div class="logo">
+            <a
+              href="https://www.youtube.com/channel/UC7Bp_sYQmAryrrPqvUp6PwQ"
+              target="_blank"
+            >
+              <img src="{{ url_for('static', filename = 'res/youtube.png')}}" alt="" class="social" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://twitter.com/BhavikJikadara1?s=09" target="_blank">
+              <img src="{{ url_for('static', filename = 'res/twitter.png')}}" alt="" class="social" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.facebook.com/Bhavikjikadara07" target="_blank">
+              <img src="{{ url_for('static', filename = 'res/facebook.png')}}" alt="" class="social" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.instagram.com/bhavikjikadara/" target="_blank">
+              <img src="{{ url_for('static', filename = 'res/instagram.png')}}" alt="" class="social" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        Copy &copy;Right 2020-21 | bhavikjikadara33523@gmail.com
+      </div>
+    </footer>
+
+    <script async src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="{{ url_for('static', filename = 'js/index.js')}}"></script>
+  </body>
+</html>

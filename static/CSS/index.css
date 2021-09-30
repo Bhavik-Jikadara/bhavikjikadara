@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #292c35;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  top: 15px;
+  left: 15px;
+  background-color: #292c35;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  height: 20px;
+  width: 44px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #292c35;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  opacity: 0;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  align-items: center;
+  color: #292c35;
+}
+
+.fa-sun {
+  position: absolute;
+  align-items: center;
+  color: rgb(238, 232, 227);
+}
+
+/*  Section  */
+
+.img-main {
+  width: 100%;
+  height: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.marg {
+  margin: 20px 0px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgb(238, 232, 227);
+}
+img {
+  width: 125px;
+  height: 125px;
+}
+
+.media {
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 150px;
+  display: flex;
+}
+
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin: 0px 10px;
+}
+.fa-instagram {
+  width: 20px;
+  height: 15px;
+}
+.fa-github {
+  width: 20px;
+  height: 15px;
+}
+.fa-facebook {
+  width: 20px;
+  height: 15px;
+}
+.fa-linkedin {
+  width: 20px;
+  height: 15px;
+}
+
+.social {
+  width: 28px;
+  height: 28px;
+}
+
+.foot {
+  font-size: small;
+  color: rgb(238, 232, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

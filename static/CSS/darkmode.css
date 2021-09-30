@@ -1,0 +1,34 @@
+body.dark {
+  background: rgb(238, 232, 227);
+}
+
+body.dark .profile-img{
+	background-color: #292c35;
+}
+
+body.dark .fa-moon {
+  color: #292c35;
+}
+
+body.dark .sun{
+	color: rgb(238, 232, 227);
+}
+
+body.dark .label, body.dark .ball {
+  background: rgb(238, 232, 227);
+}
+
+body.dark .text {
+  color: #292c35;
+}
+
+body.dark .fa-sun:before {
+    opacity: 0;
+    content: "\f185";
+}
+
+body.dark .foot{
+	font-style: initial;
+	font-weight: bolder;
+	color: #292c35;
+}
